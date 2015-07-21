@@ -14,6 +14,7 @@ SFTP\SFTPServiceProvider::class
 
 E no arquivo config/filesystems.php insira 
 
+```php
 'sftp' => [
 	'driver'   => 'sftp',
 	'host' => 'example.com',
@@ -24,6 +25,10 @@ E no arquivo config/filesystems.php insira
 	'root' => '/path/to/root',
 	'timeout' => 10,
 ],
+```
 
+Munde o 
 
-Munde o 'default' => 'sftp'
+```php
+'default' => 'sftp'
+```
