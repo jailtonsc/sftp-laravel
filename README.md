@@ -10,7 +10,9 @@ composer require jailtonsc/sftp-laravel
 
 No arquivo config/app.php em providers insira no provaider
 
+```php
 SFTP\SFTPServiceProvider::class
+```
 
 E no arquivo config/filesystems.php insira 
 
